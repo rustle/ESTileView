@@ -37,7 +37,6 @@
 #endif
 
 @interface ESInternalTileView ()
-@property (assign, nonatomic) CGSize tileSize;
 @property (STRONG, nonatomic) NSMutableSet *internalVisibleTiles;
 @property (STRONG, nonatomic) NSMutableSet *reusableTiles;
 - (UIView *)dataSourceTileForRow:(NSInteger)row column:(NSInteger)column;

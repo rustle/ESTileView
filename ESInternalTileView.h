@@ -24,9 +24,9 @@
 
 @property (WEAK, nonatomic) id<ESTileViewDataSource> dataSource;
 @property (assign, nonatomic) id<ESTileViewDelegate> delegate;
-@property (assign, nonatomic, readonly) CGSize tileSize;
-@property (assign, nonatomic, readonly) NSInteger numberOfRows;
-@property (assign, nonatomic, readonly) NSInteger numberOfColumns;
+@property (assign, nonatomic) CGSize tileSize;
+@property (assign, nonatomic) NSInteger numberOfRows;
+@property (assign, nonatomic) NSInteger numberOfColumns;
 @property (assign, nonatomic) ESTileViewAlignment alignment;
 
 - (UIView *)dequeueReusableTile;
